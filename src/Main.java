@@ -1,5 +1,10 @@
+import javax.swing.*;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hemlld!");
-    }
-}
+        SwingUtilities.invokeLater(() -> {
+            CargoTrackingGUI frame = new CargoTrackingGUI();
+            frame.setVisible(true);
+        });
+    }}
